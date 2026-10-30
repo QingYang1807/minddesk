@@ -1,0 +1,646 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "4afd4a5d-2f24-42d7-bdda-f29f31f1c541",
+  "title": "产品全生命周期",
+  "description": "从洞察到增长，让每个阶段都有清晰的方向。",
+  "createdAt": "2026-10-30T12:39:06.942Z",
+  "updatedAt": "2026-10-30T12:39:06.942Z",
+  "rootId": "9528a46b-80d5-4473-873f-8df0a2041f4c",
+  "nodes": [
+    {
+      "id": "9528a46b-80d5-4473-873f-8df0a2041f4c",
+      "parentId": null,
+      "order": 0,
+      "text": "产品全生命周期",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "02f949c8-6b6b-4577-8c0b-fe90e2634381",
+      "parentId": "9528a46b-80d5-4473-873f-8df0a2041f4c",
+      "order": 0,
+      "text": "市场与用户研究",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "0c6dd5c4-a650-4252-a313-1eb9126299d3",
+      "parentId": "02f949c8-6b6b-4577-8c0b-fe90e2634381",
+      "order": 0,
+      "text": "目标用户与使用场景",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "32dced31-3ea7-48aa-957e-e4ebbb360867",
+      "parentId": "02f949c8-6b6b-4577-8c0b-fe90e2634381",
+      "order": 1,
+      "text": "用户访谈与痛点",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "13a627c5-6c08-42a5-a0de-d85d260560e5",
+      "parentId": "02f949c8-6b6b-4577-8c0b-fe90e2634381",
+      "order": 2,
+      "text": "竞品与市场机会",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "9e22e813-461a-4571-905f-257c38751898",
+      "parentId": "9528a46b-80d5-4473-873f-8df0a2041f4c",
+      "order": 1,
+      "text": "产品定位",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "99258d99-c9d9-46de-9a5d-0c907d9ea2df",
+      "parentId": "9e22e813-461a-4571-905f-257c38751898",
+      "order": 0,
+      "text": "价值主张",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "c80c6122-7fbe-408f-9751-705858de70dc",
+      "parentId": "9e22e813-461a-4571-905f-257c38751898",
+      "order": 1,
+      "text": "差异化优势",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "3a2ef459-f485-4d99-ad2c-2a040ecb42b8",
+      "parentId": "9e22e813-461a-4571-905f-257c38751898",
+      "order": 2,
+      "text": "商业模式假设",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "2c9cc8fb-f597-4e49-aa5d-fe6b97224141",
+      "parentId": "9528a46b-80d5-4473-873f-8df0a2041f4c",
+      "order": 2,
+      "text": "目标与指标",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "81632032-edbb-4939-8526-e093b7c52e0b",
+      "parentId": "2c9cc8fb-f597-4e49-aa5d-fe6b97224141",
+      "order": 0,
+      "text": "北极星指标",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "e26ba7fd-fbc8-4a6c-8452-a03f6cb5286a",
+      "parentId": "2c9cc8fb-f597-4e49-aa5d-fe6b97224141",
+      "order": 1,
+      "text": "成功标准",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "0e653ac7-6d30-499e-b893-a7435117ce0f",
+      "parentId": "2c9cc8fb-f597-4e49-aa5d-fe6b97224141",
+      "order": 2,
+      "text": "数据采集方案",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "dca641a6-dc15-491a-ae22-00bd761513e1",
+      "parentId": "9528a46b-80d5-4473-873f-8df0a2041f4c",
+      "order": 3,
+      "text": "需求与设计",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "02cf4fa9-90c4-46aa-b23f-c856181f0279",
+      "parentId": "dca641a6-dc15-491a-ae22-00bd761513e1",
+      "order": 0,
+      "text": "需求优先级",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "cb687a75-6709-4a1a-a249-6170329e76a3",
+      "parentId": "dca641a6-dc15-491a-ae22-00bd761513e1",
+      "order": 1,
+      "text": "用户旅程与原型",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "85a02e8a-de93-4c3e-9b21-dd1e7acfb2df",
+      "parentId": "dca641a6-dc15-491a-ae22-00bd761513e1",
+      "order": 2,
+      "text": "交互与视觉规范",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "800f351c-8ee2-46c5-8b3c-39becfed7b72",
+      "parentId": "9528a46b-80d5-4473-873f-8df0a2041f4c",
+      "order": 4,
+      "text": "技术与研发",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "d29b8a9f-5dc4-48aa-9bcc-103a2465a682",
+      "parentId": "800f351c-8ee2-46c5-8b3c-39becfed7b72",
+      "order": 0,
+      "text": "系统架构与接口",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "3ec36ff3-e0c0-444b-881d-17e8f709862c",
+      "parentId": "800f351c-8ee2-46c5-8b3c-39becfed7b72",
+      "order": 1,
+      "text": "里程碑与任务拆解",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "c934e7c0-527e-4654-805d-96673e483d44",
+      "parentId": "800f351c-8ee2-46c5-8b3c-39becfed7b72",
+      "order": 2,
+      "text": "代码评审与集成",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "723b93e8-e6a7-4386-a13f-0df7d5cf40a9",
+      "parentId": "9528a46b-80d5-4473-873f-8df0a2041f4c",
+      "order": 5,
+      "text": "测试与上线",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "febc9ad0-f23e-4437-b432-5d4f7abde52e",
+      "parentId": "723b93e8-e6a7-4386-a13f-0df7d5cf40a9",
+      "order": 0,
+      "text": "功能与性能验证",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "f1e8b8c6-894f-49ed-9c29-cd2518a9afcd",
+      "parentId": "723b93e8-e6a7-4386-a13f-0df7d5cf40a9",
+      "order": 1,
+      "text": "灰度发布与回滚",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "efc990d2-574d-4ee3-9eeb-53a92e9fdc39",
+      "parentId": "723b93e8-e6a7-4386-a13f-0df7d5cf40a9",
+      "order": 2,
+      "text": "上线验收清单",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "9a08031b-5454-42fe-a78e-faa0a567d45d",
+      "parentId": "9528a46b-80d5-4473-873f-8df0a2041f4c",
+      "order": 6,
+      "text": "运营与增长",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "ccc296e2-2723-46cc-bf74-1e44cc54adfd",
+      "parentId": "9a08031b-5454-42fe-a78e-faa0a567d45d",
+      "order": 0,
+      "text": "用户反馈闭环",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "734fc0a4-d90e-4c9d-83e4-4788a77122d1",
+      "parentId": "9a08031b-5454-42fe-a78e-faa0a567d45d",
+      "order": 1,
+      "text": "转化与留存实验",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "09c00ee1-0cd5-4efb-8358-c6a260122a6c",
+      "parentId": "9a08031b-5454-42fe-a78e-faa0a567d45d",
+      "order": 2,
+      "text": "内容与渠道计划",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "da8c0066-7307-4ed3-ac95-93d6636fe2f0",
+      "parentId": "9528a46b-80d5-4473-873f-8df0a2041f4c",
+      "order": 7,
+      "text": "复盘与迭代",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "4260ab04-eeb2-4951-9aa1-53ebfb0c3da2",
+      "parentId": "da8c0066-7307-4ed3-ac95-93d6636fe2f0",
+      "order": 0,
+      "text": "目标达成分析",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "79cafbd2-34bf-439a-a04d-46b619f54cc2",
+      "parentId": "da8c0066-7307-4ed3-ac95-93d6636fe2f0",
+      "order": 1,
+      "text": "经验与问题沉淀",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "33832c17-f226-47c2-a263-2ff49f3504f6",
+      "parentId": "da8c0066-7307-4ed3-ac95-93d6636fe2f0",
+      "order": 2,
+      "text": "下一阶段路线图",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    }
+  ],
+  "relations": [],
+  "viewSettings": {
+    "view": "map",
+    "layout": "mindmap",
+    "edge": "natural",
+    "positions": {}
+  },
+  "theme": "creative"
+}

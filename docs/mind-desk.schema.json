@@ -1,0 +1,333 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "const": "1.0"
+    },
+    "documentId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "default": "",
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "updatedAt": {
+      "type": "string"
+    },
+    "rootId": {
+      "type": "string"
+    },
+    "nodes": {
+      "minItems": 1,
+      "maxItems": 5000,
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "parentId": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "order": {
+            "type": "number"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 10000
+          },
+          "note": {
+            "default": "",
+            "type": "string"
+          },
+          "type": {
+            "default": "topic",
+            "type": "string",
+            "enum": [
+              "topic",
+              "important",
+              "warning",
+              "conclusion",
+              "note",
+              "task"
+            ]
+          },
+          "tags": {
+            "default": [],
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "icon": {
+            "default": "",
+            "type": "string"
+          },
+          "style": {
+            "default": {},
+            "type": "object",
+            "properties": {
+              "emphasis": {
+                "type": "boolean"
+              }
+            },
+            "additionalProperties": false
+          },
+          "collapsed": {
+            "default": false,
+            "type": "boolean"
+          },
+          "task": {
+            "default": {},
+            "type": "object",
+            "properties": {
+              "status": {
+                "type": "string",
+                "enum": [
+                  "todo",
+                  "doing",
+                  "done",
+                  "blocked"
+                ]
+              },
+              "priority": {
+                "type": "string",
+                "enum": [
+                  "low",
+                  "medium",
+                  "high",
+                  "urgent"
+                ]
+              },
+              "owner": {
+                "type": "string"
+              },
+              "startDate": {
+                "type": "string"
+              },
+              "dueDate": {
+                "type": "string"
+              },
+              "estimate": {
+                "type": "string"
+              },
+              "acceptanceCriteria": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "evidence": {
+            "default": {
+              "status": "unverified",
+              "source": "",
+              "verification": ""
+            },
+            "type": "object",
+            "properties": {
+              "status": {
+                "default": "unverified",
+                "type": "string",
+                "enum": [
+                  "fact",
+                  "hypothesis",
+                  "suggestion",
+                  "unverified"
+                ]
+              },
+              "source": {
+                "default": "",
+                "type": "string"
+              },
+              "verification": {
+                "default": "",
+                "type": "string"
+              }
+            },
+            "required": [
+              "status",
+              "source",
+              "verification"
+            ],
+            "additionalProperties": false
+          },
+          "metadata": {
+            "default": {},
+            "type": "object",
+            "propertyNames": {
+              "type": "string"
+            },
+            "additionalProperties": {}
+          }
+        },
+        "required": [
+          "id",
+          "parentId",
+          "order",
+          "text",
+          "note",
+          "type",
+          "tags",
+          "icon",
+          "style",
+          "collapsed",
+          "task",
+          "evidence",
+          "metadata"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "relations": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "sourceId": {
+            "type": "string"
+          },
+          "targetId": {
+            "type": "string"
+          },
+          "type": {
+            "type": "string"
+          },
+          "label": {
+            "default": "",
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "sourceId",
+          "targetId",
+          "type",
+          "label"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "viewSettings": {
+      "default": {
+        "view": "map",
+        "layout": "mindmap",
+        "edge": "natural",
+        "positions": {}
+      },
+      "type": "object",
+      "properties": {
+        "view": {
+          "default": "map",
+          "type": "string",
+          "enum": [
+            "map",
+            "outline",
+            "wbs"
+          ]
+        },
+        "layout": {
+          "default": "mindmap",
+          "type": "string",
+          "enum": [
+            "mindmap",
+            "right",
+            "tree",
+            "down",
+            "compact",
+            "fishbone"
+          ]
+        },
+        "edge": {
+          "default": "natural",
+          "type": "string",
+          "enum": [
+            "natural",
+            "minimal",
+            "orthogonal",
+            "thin"
+          ]
+        },
+        "positions": {
+          "default": {},
+          "type": "object",
+          "propertyNames": {
+            "type": "string"
+          },
+          "additionalProperties": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string"
+            },
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "x": {
+                  "type": "number"
+                },
+                "y": {
+                  "type": "number"
+                }
+              },
+              "required": [
+                "x",
+                "y"
+              ],
+              "additionalProperties": false
+            }
+          }
+        }
+      },
+      "required": [
+        "view",
+        "layout",
+        "edge",
+        "positions"
+      ],
+      "additionalProperties": false
+    },
+    "theme": {
+      "default": "creative",
+      "type": "string",
+      "enum": [
+        "executive",
+        "consulting",
+        "creative",
+        "dark"
+      ]
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "documentId",
+    "title",
+    "description",
+    "createdAt",
+    "updatedAt",
+    "rootId",
+    "nodes",
+    "relations",
+    "viewSettings",
+    "theme"
+  ],
+  "additionalProperties": false
+}

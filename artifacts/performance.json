@@ -1,0 +1,55 @@
+{
+  "measuredAt": "2026-10-30T12:39:06.973Z",
+  "runtime": "v26.10.0",
+  "scope": "Pure layout and SVG serialization, excludes browser interaction/render/PNG",
+  "metrics": [
+    {
+      "count": 30,
+      "layoutMs": 0.25,
+      "svgMs": 0.3,
+      "svgBytes": 17791,
+      "width": 1818.8000000000002,
+      "height": 1146
+    },
+    {
+      "count": 50,
+      "layoutMs": 0.37,
+      "svgMs": 0.46,
+      "svgBytes": 29768,
+      "width": 1818.8000000000002,
+      "height": 2066
+    },
+    {
+      "count": 80,
+      "layoutMs": 0.55,
+      "svgMs": 0.88,
+      "svgBytes": 47873,
+      "width": 1818.8000000000002,
+      "height": 3446
+    },
+    {
+      "count": 150,
+      "layoutMs": 1.25,
+      "svgMs": 1.36,
+      "svgBytes": 89142,
+      "width": 1810.8000000000002,
+      "height": 6666
+    },
+    {
+      "count": 200,
+      "layoutMs": 1.51,
+      "svgMs": 1.9,
+      "svgBytes": 118544,
+      "width": 1810.8000000000002,
+      "height": 8966
+    },
+    {
+      "count": 500,
+      "layoutMs": 6.74,
+      "svgMs": 5.63,
+      "svgBytes": 294219,
+      "width": 1810.8000000000002,
+      "height": 22766
+    }
+  ]
+}

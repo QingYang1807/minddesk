@@ -1,0 +1,548 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "42fff814-6b4f-456f-a31e-756e64aa1a4f",
+  "title": "项目 WBS 任务拆解",
+  "description": "从项目目标到可验收的工作包。",
+  "createdAt": "2026-10-30T12:39:06.944Z",
+  "updatedAt": "2026-10-30T12:39:06.944Z",
+  "rootId": "4ea7a244-0902-4d51-977a-6612be7494de",
+  "nodes": [
+    {
+      "id": "4ea7a244-0902-4d51-977a-6612be7494de",
+      "parentId": null,
+      "order": 0,
+      "text": "项目 WBS 任务拆解",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "2bf8c22c-a6dd-4e93-ba88-f9903f00f821",
+      "parentId": "4ea7a244-0902-4d51-977a-6612be7494de",
+      "order": 0,
+      "text": "启动与规划",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "e7895fd4-cabb-4404-95b4-61183a431006",
+      "parentId": "2bf8c22c-a6dd-4e93-ba88-f9903f00f821",
+      "order": 0,
+      "text": "目标与范围确认",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "fb71b758-9b44-41ec-87ea-656a380262af",
+      "parentId": "2bf8c22c-a6dd-4e93-ba88-f9903f00f821",
+      "order": 1,
+      "text": "干系人访谈",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "007e48af-c99a-40da-a860-a4c1a9b8e0ab",
+      "parentId": "2bf8c22c-a6dd-4e93-ba88-f9903f00f821",
+      "order": 2,
+      "text": "里程碑基线",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "f71858f7-b289-4ec6-92a9-91902ad03606",
+      "parentId": "4ea7a244-0902-4d51-977a-6612be7494de",
+      "order": 1,
+      "text": "需求工作包",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "906df9ef-339f-4a5f-a995-4bf21cbfff5b",
+      "parentId": "f71858f7-b289-4ec6-92a9-91902ad03606",
+      "order": 0,
+      "text": "需求调研",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "1ca8bce7-10bf-4c7b-838e-82e47cad4af2",
+      "parentId": "f71858f7-b289-4ec6-92a9-91902ad03606",
+      "order": 1,
+      "text": "需求规格评审",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "0fad8b28-188a-4250-8b8d-432a4e944a38",
+      "parentId": "f71858f7-b289-4ec6-92a9-91902ad03606",
+      "order": 2,
+      "text": "需求验收",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "c2a060fb-9ea1-45cb-8e90-d3be06434075",
+      "parentId": "4ea7a244-0902-4d51-977a-6612be7494de",
+      "order": 2,
+      "text": "设计工作包",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "9bddf0e3-21ce-4d90-9bfd-8729b8ef66e7",
+      "parentId": "c2a060fb-9ea1-45cb-8e90-d3be06434075",
+      "order": 0,
+      "text": "技术方案",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "734a1ed4-66db-4189-aed7-c3ff551d4dcf",
+      "parentId": "c2a060fb-9ea1-45cb-8e90-d3be06434075",
+      "order": 1,
+      "text": "接口契约",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "7e57da81-7c26-4ab7-ad91-bc810f141e5a",
+      "parentId": "c2a060fb-9ea1-45cb-8e90-d3be06434075",
+      "order": 2,
+      "text": "设计评审",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "365b0e4b-8ab6-4cda-80e2-1c41a0f2b171",
+      "parentId": "4ea7a244-0902-4d51-977a-6612be7494de",
+      "order": 3,
+      "text": "实现工作包",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "66bd9aac-74c9-43c0-8a2f-035a31f7495f",
+      "parentId": "365b0e4b-8ab6-4cda-80e2-1c41a0f2b171",
+      "order": 0,
+      "text": "核心功能开发",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "16963c66-30cf-4917-8d3d-2985747dd395",
+      "parentId": "365b0e4b-8ab6-4cda-80e2-1c41a0f2b171",
+      "order": 1,
+      "text": "集成验证",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "29252b0b-8ea1-4292-945f-d2844205917d",
+      "parentId": "365b0e4b-8ab6-4cda-80e2-1c41a0f2b171",
+      "order": 2,
+      "text": "代码质量检查",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "f493c6fb-c293-4a76-83b0-8243a0d9baa8",
+      "parentId": "4ea7a244-0902-4d51-977a-6612be7494de",
+      "order": 4,
+      "text": "验证工作包",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "078a7406-0bb7-4b13-b3ea-e45418efb65f",
+      "parentId": "f493c6fb-c293-4a76-83b0-8243a0d9baa8",
+      "order": 0,
+      "text": "测试计划",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "00f88d48-71b2-49bf-9223-9f41629837ad",
+      "parentId": "f493c6fb-c293-4a76-83b0-8243a0d9baa8",
+      "order": 1,
+      "text": "缺陷闭环",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "a9fa536e-e997-4e80-ac3c-1bef64d6cefe",
+      "parentId": "f493c6fb-c293-4a76-83b0-8243a0d9baa8",
+      "order": 2,
+      "text": "性能验证",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "0ee56943-317e-4628-ae99-0f8b6c16c3cb",
+      "parentId": "4ea7a244-0902-4d51-977a-6612be7494de",
+      "order": 5,
+      "text": "交付工作包",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "c5dcb049-5dba-4e77-8cb4-8de99be8df7b",
+      "parentId": "0ee56943-317e-4628-ae99-0f8b6c16c3cb",
+      "order": 0,
+      "text": "部署手册",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "f10a1241-3fc0-461a-bc29-2fe83b31fa38",
+      "parentId": "0ee56943-317e-4628-ae99-0f8b6c16c3cb",
+      "order": 1,
+      "text": "用户验收",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "5271cd61-97ee-49d9-af39-1884a1e6ae9b",
+      "parentId": "0ee56943-317e-4628-ae99-0f8b6c16c3cb",
+      "order": 2,
+      "text": "项目复盘",
+      "note": "",
+      "type": "task",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {
+        "status": "todo",
+        "acceptanceCriteria": "请填写可验证的交付条件"
+      },
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    }
+  ],
+  "relations": [],
+  "viewSettings": {
+    "view": "map",
+    "layout": "down",
+    "edge": "natural",
+    "positions": {}
+  },
+  "theme": "consulting"
+}

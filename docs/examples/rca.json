@@ -1,0 +1,494 @@
+{
+  "schemaVersion": "1.0",
+  "documentId": "211ab515-8922-4f99-828d-9809e72b768f",
+  "title": "软件系统故障根因分析",
+  "description": "区分现象、原因假设与证据，找到下一步验证动作。",
+  "createdAt": "2026-10-30T12:39:06.944Z",
+  "updatedAt": "2026-10-30T12:39:06.944Z",
+  "rootId": "c254aaba-8fcf-4169-b12f-4dec93d2e49b",
+  "nodes": [
+    {
+      "id": "c254aaba-8fcf-4169-b12f-4dec93d2e49b",
+      "parentId": null,
+      "order": 0,
+      "text": "软件系统故障根因分析",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "0bb831cf-f637-40a2-94c4-7859e78665f4",
+      "parentId": "c254aaba-8fcf-4169-b12f-4dec93d2e49b",
+      "order": 0,
+      "text": "人员与协作",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "6cce3930-cfe6-44dd-af9a-20a94416a1f3",
+      "parentId": "0bb831cf-f637-40a2-94c4-7859e78665f4",
+      "order": 0,
+      "text": "值班交接遗漏？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "98a15377-6d2e-4e9f-a8c1-2b4051d3325a",
+      "parentId": "0bb831cf-f637-40a2-94c4-7859e78665f4",
+      "order": 1,
+      "text": "知识覆盖不足？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "deede04b-568e-403c-bc28-409cbaf9e6d3",
+      "parentId": "0bb831cf-f637-40a2-94c4-7859e78665f4",
+      "order": 2,
+      "text": "操作复核缺失？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "94cb6159-8883-49b5-8840-818d757abd3f",
+      "parentId": "c254aaba-8fcf-4169-b12f-4dec93d2e49b",
+      "order": 1,
+      "text": "流程与变更",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "a4bfd0e8-5886-4ed7-9960-036f229a12eb",
+      "parentId": "94cb6159-8883-49b5-8840-818d757abd3f",
+      "order": 0,
+      "text": "发布审批缺失？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "137e277f-1271-4a73-af7b-7590ed144c77",
+      "parentId": "94cb6159-8883-49b5-8840-818d757abd3f",
+      "order": 1,
+      "text": "回滚流程未演练？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "f05f9abd-069f-4928-a716-d2542e0f7016",
+      "parentId": "94cb6159-8883-49b5-8840-818d757abd3f",
+      "order": 2,
+      "text": "变更窗口冲突？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "a3dab9ab-e5bc-4a33-9195-5590713c44e0",
+      "parentId": "c254aaba-8fcf-4169-b12f-4dec93d2e49b",
+      "order": 2,
+      "text": "应用与代码",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "2fa38b0a-917d-45e7-9c50-2d4123a9debd",
+      "parentId": "a3dab9ab-e5bc-4a33-9195-5590713c44e0",
+      "order": 0,
+      "text": "并发竞争？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "ee1f98cf-28a0-4980-8f02-a767d72e42e2",
+      "parentId": "a3dab9ab-e5bc-4a33-9195-5590713c44e0",
+      "order": 1,
+      "text": "资源未释放？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "118573e6-403e-4860-89b4-8d795fa91c76",
+      "parentId": "a3dab9ab-e5bc-4a33-9195-5590713c44e0",
+      "order": 2,
+      "text": "异常处理不足？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "9653d528-f954-4cb8-9b2e-74b1b5679dca",
+      "parentId": "c254aaba-8fcf-4169-b12f-4dec93d2e49b",
+      "order": 3,
+      "text": "基础设施",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "190b5c46-14c5-4a1a-a7a8-a192fb117b5d",
+      "parentId": "9653d528-f954-4cb8-9b2e-74b1b5679dca",
+      "order": 0,
+      "text": "容量不足？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "c3d245c2-bd3d-4f0a-9854-5202429cd317",
+      "parentId": "9653d528-f954-4cb8-9b2e-74b1b5679dca",
+      "order": 1,
+      "text": "网络抖动？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "6b10cdd1-bc29-4249-a544-8b1906388668",
+      "parentId": "9653d528-f954-4cb8-9b2e-74b1b5679dca",
+      "order": 2,
+      "text": "磁盘延迟？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "2d47132d-0889-4cf7-9966-9f8cf79ca87d",
+      "parentId": "c254aaba-8fcf-4169-b12f-4dec93d2e49b",
+      "order": 4,
+      "text": "数据与依赖",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "f6abd907-0e54-4db7-8484-6b1ac5a6ab78",
+      "parentId": "2d47132d-0889-4cf7-9966-9f8cf79ca87d",
+      "order": 0,
+      "text": "上游超时？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "7ffa4aec-9dd6-4af0-9dda-af09c7e88cf7",
+      "parentId": "2d47132d-0889-4cf7-9966-9f8cf79ca87d",
+      "order": 1,
+      "text": "数据倾斜？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "44803e39-970c-462b-9115-2ae5212d4aa7",
+      "parentId": "2d47132d-0889-4cf7-9966-9f8cf79ca87d",
+      "order": 2,
+      "text": "缓存失效？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "5a449e6b-6ee4-4ee1-8721-e0c5e72b4530",
+      "parentId": "c254aaba-8fcf-4169-b12f-4dec93d2e49b",
+      "order": 5,
+      "text": "监控与测试",
+      "note": "",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "unverified",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "7c692980-17c1-4830-85df-0bc13802bce2",
+      "parentId": "5a449e6b-6ee4-4ee1-8721-e0c5e72b4530",
+      "order": 0,
+      "text": "告警覆盖不足？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "583718a0-4959-43b9-8421-1b84f29834d2",
+      "parentId": "5a449e6b-6ee4-4ee1-8721-e0c5e72b4530",
+      "order": 1,
+      "text": "测试场景缺失？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    },
+    {
+      "id": "76c97b2c-ea0c-4d4c-ac76-ce5cfc2ef5cb",
+      "parentId": "5a449e6b-6ee4-4ee1-8721-e0c5e72b4530",
+      "order": 2,
+      "text": "观测盲区？",
+      "note": "待验证：请补充日志、实验或现场证据",
+      "type": "topic",
+      "tags": [],
+      "icon": "",
+      "style": {},
+      "collapsed": false,
+      "task": {},
+      "evidence": {
+        "status": "hypothesis",
+        "source": "",
+        "verification": ""
+      },
+      "metadata": {}
+    }
+  ],
+  "relations": [],
+  "viewSettings": {
+    "view": "map",
+    "layout": "fishbone",
+    "edge": "natural",
+    "positions": {}
+  },
+  "theme": "consulting"
+}

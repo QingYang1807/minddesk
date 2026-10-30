@@ -1,0 +1,15 @@
+node_modules/
+dist/
+data/
+playwright-report/
+test-results/
+*.log
+.env
+
+.npm-cache/
+
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+.DS_Store
